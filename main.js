@@ -55,11 +55,10 @@ for(let numero = 0; numero<= 4; numero++){
 }
 console.log(cadastro)
 // Mostre no console o nome de um amigo de cada lista.
-console.log(cadastro[0].amigos[1])
-console.log(cadastro[1].amigos[0])
-console.log(cadastro[2].amigos[5])
-console.log(cadastro[3].amigos[4])
-console.log(cadastro[4].amigos[3])
+for(let lista = 0; lista <=4; lista++){
+    console.log(cadastro[lista].amigos[lista])
+}
+
 
 
 
